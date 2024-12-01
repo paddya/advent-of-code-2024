@@ -11,8 +11,8 @@ for l in lines:
     l1.append(int(num1))
     l2.append(int(num2))
     
-l1.sort()
-l2.sort()
+l1 = sorted(l1)
+l2 = sorted(l2)
 
 p1 = 0
 for n1,n2 in zip(l1, l2):
